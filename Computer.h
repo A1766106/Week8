@@ -6,8 +6,8 @@
 
 class Computer: public Player {
     public:
-    std::string letter;
-    Computer(std::string letter);                       //set what move the computer will
+        std::string letter;
+        Computer(std::string letter);                       //set what move the computer will
                                                //make (rock, paper, or scissors)
                                                //if the input is not r, R, p, P, s, S or
                                                //a string starting with one of these letters,

@@ -12,11 +12,12 @@ using namespace std;
         {
             this->letter = "r";
         }
-        recent_Move = letter;
-        Moves[numMoves] = letter
+        recent_Move = letter[0];
+        Moves[numMoves] = recent_Move;
         numMoves = numMoves + 1;
     }
     void Computer::move()
     {
+        Moves[numMoves] = recent_Move;
         numMoves = numMoves + 1;
     }

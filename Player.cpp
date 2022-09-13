@@ -7,6 +7,7 @@ using namespace std;
 Player::Player(){
   recent_Move = 'r';
   numMoves = 0;
+  Moves = new char(100);
 }
 std::string Player::getMoves()
 {  

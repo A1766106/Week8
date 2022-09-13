@@ -6,7 +6,7 @@
 class Player {
 
     public:
-        std::string Moves;
+        char *Moves;
         char recent_Move;
         int numMoves;
         Player();

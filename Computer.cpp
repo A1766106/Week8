@@ -8,7 +8,7 @@ using namespace std;
     Computer::Computer(string letter)
     {
         this->letter = letter;
-        if(this->letter != "r" || this->letter != "R" || this->letter != "p" || this->letter != "P" || this->letter != "s" || this->letter != "S")
+        if(this->letter != "r" && this->letter != "R" && this->letter != "p" && this->letter != "P" && this->letter != "s" && this->letter != "S")
         {
             this->letter = "r";
         }

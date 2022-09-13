@@ -34,21 +34,21 @@ int main()
     return 0;
 }
 
-string convertChar(char d)
-{
-    switch (d)
-    {
-        case 'r':
-            return "rock";
-            break;
-        case 'p':
-            return "paper";
-            break;
-        case 's':
-            return "scissors";
-            break;
-        default:
-            break;
-    }
-    return "";
-}
+// string convertChar(char d)
+// {
+//     switch (d)
+//     {
+//         case 'r':
+//             return "rock";
+//             break;
+//         case 'p':
+//             return "paper";
+//             break;
+//         case 's':
+//             return "scissors";
+//             break;
+//         default:
+//             break;
+//     }
+//     return "";
+// }
